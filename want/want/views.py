@@ -1,7 +1,4 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-#!/usr/bin/python
 # -*- coding:utf-8 -*-
 
 import json
@@ -25,4 +22,4 @@ from django.views.decorators.csrf import csrf_exempt
 
 
 def index(request):
-    return HttpResponse("true")
+    return HttpResponse("index")
